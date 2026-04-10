@@ -1,0 +1,184 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 100;
+  border-bottom: 1px solid #eee;
+}
+
+.header-inner {
+  max-width: 1512px;
+  margin: 0 auto;
+  padding: 0 100px;
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-inner img {
+  height: 52px;
+  width: auto;
+  position: absolute;
+  right: 1512px;
+  margin-left: 100px;
+}
+
+.header-inner nav{
+  margin-right: 180px;
+}
+
+.header-inner nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header-inner nav ul li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.header-inner nav ul li:hover {
+  color: #000;
+}
+
+.main-visual {
+  margin-top: 60px;
+}
+
+.head-background {
+  width: 100%;
+  height: 460px;
+  background-image: url(img/mainvisual.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+#bicycle h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #A1A1A1;
+  margin-top: 4px;
+}
+
+#about .profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#about .profile-content img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+#about h2::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #A1A1A1;
+  margin-top: 8px;
+}
+
+#about h3 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#about p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.8;
+  max-width: 440px;
+}
+
+#bicycle .bicycle-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bicycle-item {
+  width: 100%;
+  max-width: 520px;
+  text-align: center;
+}
+
+.bicycle-item img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.bicycle-item h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  letter-spacing: 0.03em;
+}
+
+.bicycle-item p {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.6;
+}
+
+#bicycle + #bicycle {
+  padding-top: 0;
+}
+
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 8px;
+  font-size: 10px;
+  font-family: Arial;
+  letter-spacing: 0.05em;
+}
