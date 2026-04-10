@@ -28,7 +28,7 @@ header {
 .header-inner {
   max-width: 1512px;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 212px;
   height: 83px;
   display: flex;
   align-items: center;
@@ -38,7 +38,6 @@ header {
 .header-inner img {
   height: 52px;
   width: auto;
-  position: absolute;
   right: 1512px;
   margin-left: 100px;
 }
@@ -50,6 +49,7 @@ header {
 .header-inner nav ul {
   list-style: none;
   display: flex;
+
 }
 
 .header-inner nav ul li {
@@ -79,12 +79,12 @@ header {
 .container {
   max-width: 600px;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding: 64px 20px;
   text-align: center;
 }
 
 .container h2 {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.08em;
   margin-bottom: 40px;
@@ -108,8 +108,8 @@ header {
 }
 
 #about .profile-content img {
-  width: 160px;
-  height: 160px;
+  width: 256px;
+  height: 256px;
   object-fit: cover;
   margin: 0 auto;
 }
@@ -154,18 +154,18 @@ header {
   width: 100%;
   height: 280px;
   object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .bicycle-item h4 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   margin-bottom: 6px;
   letter-spacing: 0.03em;
 }
 
 .bicycle-item p {
-  font-size: 12px;
-  color: #666;
+  font-size: 13px;
   line-height: 1.6;
 }
 
@@ -174,8 +174,8 @@ header {
 }
 
 footer {
-  background: #222;
-  color: #aaa;
+  background: #393E46;
+  color: #fff;
   text-align: center;
   padding: 8px;
   font-size: 10px;
