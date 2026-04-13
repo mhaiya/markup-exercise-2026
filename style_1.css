@@ -26,7 +26,6 @@ header {
 }
 
 .header-inner {
-  max-width: auto;
   margin: 0 auto;
   padding: 0 212px;
   height: 83px;
@@ -148,7 +147,6 @@ header {
 
 .bicycle-item img {
   width: 100%;
-  max-width: 640px;
   height: 424px;
   object-fit: cover;
   margin-bottom: 10px;
